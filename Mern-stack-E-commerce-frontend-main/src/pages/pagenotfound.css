@@ -1,0 +1,16 @@
+.pnf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.pnf h1{
+    font-weight: 600;
+    font-size: 90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.pnf h2{
+    font-weight:lighter;
+}

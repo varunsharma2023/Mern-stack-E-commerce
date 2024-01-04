@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.product-link{
+  text-decoration: none !important;
+  color :black !important
+}
+/* cart design */
+.add-cart{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.smry{
+  text-align: center;
+}
+.add-cart input[type="text"]{
+
+  width: 40px;
+
+}
+
+.btn-dsign{
+  background-color: darkorange;
+  text-align: center;
+  color: black;
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto auto;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn-dsign:hover{
+  background-color: orange;
+}
+
+/* contact us page */
+
+.heading{
+
+    
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-attachment: fixed;
+  color: orangered;
+  font-size: 30px;
+  
+ 
+
+}
+.logo-img{
+background-image: linear-gradient(to bottom, rgba(255,0,255,0), rgba(255,0,255,0),darkorange);
+
+}
+.logo-img img{
+margin-top: 50px;
+
+}
+.contact{ 
+
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+width: 20%;
+margin: auto;
+
+
+}
+.contact .element{
+padding-bottom:10px ;
+padding-top: 10px;
+padding: 5px;
+margin: 2px;
+
+
+}
+.contact .element label{
+display: flex;
+
+border: none;
+margin-bottom: 5px;
+color:  black;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contact .element .sub_element{
+padding: 10px;
+width: 300px;
+border: solid black 2px;
+
+}
+#btn{
+width: 300px;
+font-weight: bold;
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+transition: 1s;
+cursor: pointer;
+border: 1px solid black;
+margin-top: 10px;
+
+}
+#btn:hover{
+background-color: darkorange;
+font-style:inherit;
+font-size: 20px;
+}

@@ -1,0 +1,146 @@
+/* styling on Header */
+#container{
+    font-size: large;
+    z-index: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+
+
+  
+  .logo{
+      width:200px;
+  }
+  #unordr li{
+    list-style-type: none;
+  }
+  .serch{
+    display: flex;
+    
+    
+  }
+  
+  /* search box */
+  .serch .serch_a{
+    margin-right: 0px;
+    border-right: none;
+    border-radius: 15px 0px 0px 2px;
+    width: 70vh;
+    padding: 6px;
+    background-color: lavender;
+    box-shadow: none;
+    border-color: orange;
+  }
+  
+  /* search icon */
+  
+  .serch .serch_b{
+    margin-left: -8px;
+    border-radius: 0px 2px 15px 0px;
+    padding: 6px;
+    background-color: skyblue;
+    border-color: orange;
+    border: solid orange 3px;
+    
+  }
+  
+  /* search icon hover */
+  .serch .serch_b:hover{
+    scale: 1.1;
+    border-radius: 20%;
+    border-color: solid black;
+  }
+  .main logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling on Header 2 */
+  
+  #product-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 148, 15);
+    
+  }
+  
+  #product-nav li{
+    list-style-type: none;
+    padding: 10px 20px;
+    
+  }
+  
+  #product-nav li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* Applying hover effect to dropdown */
+  .down{
+    display: none;
+  }
+  
+  #product-nav li:hover .down{
+    display: block;
+    position: absolute;
+    background-color: darkorange;
+  }
+  #product-nav li:hover .down li{
+    border-bottom: 1px dotted;
+  }
+  
+  .login-btn-dsign{
+    background-color: darkorange;
+    text-align: center;
+    color: black;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-btn-dsign:hover{
+    background-color: orange;
+  }
+  @media screen and (max-width:991px){
+    .for{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .serch{
+      display: flex;
+      margin-top: 10px;
+      justify-content: center;
+    }
+  
+    .serch .serch_a{
+      margin-right: 0px;
+      border-right: none;
+      border-radius: 15px 0px 0px 2px;
+      width: 35vh;
+      padding: 6px;
+      background-color: lavender;
+      box-shadow: none;
+      border-color: orange;
+    }
+  
+   
+  
+   
+  
+    
+    
+  
+     
+  }

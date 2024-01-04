@@ -1,0 +1,159 @@
+
+
+
+
+
+/* cover image */
+
+.main .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,0),black);
+}
+.p{
+  display: inline;
+  color: aliceblue;
+  font-size: 50px;
+}
+.p p{
+  font-family: cursive;
+  background-color:rgba(0, 0, 0, 0.075);
+}
+
+/* featured product heading */
+
+.fp{
+  color: azure;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+#Home-prg{
+  text-align: center;
+}
+.main{
+  background: url('../images/banner.jpg');
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.main .logo-container {
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,0),black);
+}
+.p{
+  display: inline;
+  color: aliceblue;
+  font-size: 50px;
+}
+.p{
+  font-family: cursive;
+  background-color:rgba(0, 0, 0, 0.075);
+}
+
+
+/* featured products */
+
+
+
+.fp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.fp h1{
+ 
+  color: white;
+  
+}
+
+
+.cards-wrap{
+  display: flex;
+  
+}
+.card{
+  margin: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-width: 2px;
+}
+.image-wrapper{
+
+  height: 22vw;
+}
+.image-wrapper img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btn-dsign{
+  background-color: darkorange;
+  text-align: center;
+  color: black;
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto auto;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.btn-dsign:hover{
+  background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px){
+  
+
+ 
+
+ 
+
+  .image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+  }
+
+  .image-wrapper{
+    width: 200px;
+    height: 250px;
+  }
+
+  
+  
+  
+
+   
+}

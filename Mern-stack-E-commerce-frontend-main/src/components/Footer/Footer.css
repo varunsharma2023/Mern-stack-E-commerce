@@ -1,0 +1,64 @@
+#footer{
+    background-color: #24262b;
+    
+  }
+  .foot h4{
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  
+  }
+  
+  .foot h4 a{
+    font-family:'Times New Roman', Times, serif;
+  }
+  .foot ul{
+    text-align: center;
+    padding: 0;
+    
+    
+  }
+  .foot ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+  }
+  .foot a{
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  
+  .cprt{
+    text-align: center;
+    font-size: larger;
+  }
+
+  @media screen and (max-width:991px){
+   
+    .foot{ 
+      text-align: center;
+    }
+  
+    .foot a{
+      text-decoration: none;
+    }
+    .foot ul{
+      text-align: center;
+      padding: 0;
+    }
+    
+      .foot h4{
+      margin-left:0px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+    
+    }
+    
+    
+  
+     
+  }
